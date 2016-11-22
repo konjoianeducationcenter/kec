@@ -1,0 +1,503 @@
+/*  Dave Konjoian
+    Konjoian Education Center
+    Andover, MA 01801
+    konjoianeducationcenter@gmail.com
+    www.konjoianeducationcenter.com  */
+
+
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,800');
+@import url('https://fonts.googleapis.com/css?family=Ranga');
+
+/* # */
+
+/* A */
+
+.absolute-btn-scroll {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 445px !important;
+}
+
+/* B */
+
+blockquote {
+    border-left-color: #212121 !important;
+}
+
+body {
+    color: inherit;
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+    /* no horizontal scrolling */
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background: #ececec;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.brand-logo {
+    font-size: 18px !important;
+    text-transform: none !important;
+}
+
+.breadcrumb {
+    color: #9e9e9e !important;
+}
+
+.breadcrumb-nav {
+    background: transparent !important;
+}
+
+.breadcrumb:before {
+    color: #9e9e9e !important;
+}
+
+@media screen and (min-width 768px) {
+    .brand-logo {
+        margin-left: 40px !important;
+    }
+}
+
+.brand-logo > img {
+    vertical-align: middle !important;
+    width: 32px;
+}
+
+.bullets li {
+    list-style: circle;
+    margin-left: 5%;
+}
+
+.index .button-collapse i {
+    font-size: 20px !important;
+}
+
+
+/* C */
+
+.card-title {
+    font-family: 'Roboto Slab', 'Roboto', sans-serif;
+}
+
+.card-title a {
+    color: #333
+}
+
+.container-fluid {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.container-yuge {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.collection.with-header {
+    border: solid 1px white;
+}
+
+/* D */
+
+.dark {
+    background: #FAFAFA;
+}
+
+.desktop-size a {
+    text-transform: none !important
+}
+
+.div-ider-color {
+    margin-left: 70px;
+    margin-right: 70px;
+    border-bottom: solid 2px #000;
+}
+
+.dropdown-button i {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.dropdown-content a {
+    color: #000 !important;
+}
+
+/* E */
+
+.enter-page-button {
+    border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.enter-page-content {
+    height: 100vh;
+    background-image: url(../images/backgrounds/enter-page.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;  
+}
+
+@media screen and (min-width: 900px) {
+    .enter-page-content {
+        background-image: url(../images/backgrounds/enter-page-2.png);
+    }
+}
+
+/* F */
+.float-right {
+    float: right !important;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    color: #616161
+}
+footer a {
+    color: #616161 !important;
+    font-weight: 500;
+}
+footer span {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto Slab', 'Roboto', serif !important;
+}
+
+
+/* G */
+
+
+/* H */
+
+.half-page-image {
+    background: url(/images/backgrounds/enter-page.gif) center center;
+    height: 100vh !important;
+    width: 50% !important;
+    display: inline-block !important;
+}
+
+html {
+    color: #666666;
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+    /* no horizontal scrolling */
+}
+
+h1 {
+    font-size: 4.2rem;
+    line-height: 110%;
+    margin: 2.1rem 0 1.68rem 0;
+}
+
+h2 {
+    font-size: 3.56rem;
+    line-height: 110%;
+    margin: 1.78rem 0 1.424rem 0;
+}
+
+h3 {
+    font-size: 2.92rem;
+    line-height: 110%;
+    margin: 1.46rem 0 1.168rem 0;
+}
+
+h4 {
+    font-size: 2.28rem;
+    line-height: 110%;
+    margin: 1.14rem 0 0.912rem 0;
+}
+
+h5 {
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: 0.82rem 0 0.656rem 0;
+}
+
+h6 {
+    font-size: 1rem;
+    line-height: 110%;
+    margin: 0.5rem 0 0.4rem 0;
+}
+
+.hero {
+    background: url(../images/backgrounds/black-grain.jpg) center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    line-height: 400px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Roboto', serif;
+}
+
+.header-text {
+    font-size: 2.0em;
+    font-weight: 300;
+    font-family: 'Ranga', serif;
+}
+
+.hero-pages {
+    background: #9575CD !important;
+    height: 170px !important;
+}
+
+.hero-content {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color: inherit;
+    width: 100%;
+    color: #fff;
+}
+
+.hero-content a {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+.horizontal-scroll {
+    overflow-x: scroll;
+}
+
+/* I */
+
+ul.inline li {
+    display: inline-block !important;
+    padding-left: 0px;
+}
+
+.indent {
+    text-indent: 5%;
+}
+
+.intro-card {
+    width: 100%;
+}
+
+.inquire-button {
+    background-color: #000 !important;
+    width: 40%;
+    margin-left: 30%;
+}
+
+/* J */
+
+
+/* K */
+
+
+/* L */
+
+.light {
+    font-weight: 300 !important;
+}
+
+
+/* M */
+
+main {
+    flex: 1 0 auto;
+}
+
+.m-b-0 {
+    margin-bottom: 0 !important;
+}
+
+.modal-footer-text {
+    padding-top: 10px !important;
+}
+
+@media screen and (max-width: 640px) {
+    .modal-footer-text {
+        padding-top: 3px !important;
+    }   
+}
+
+/* N */
+
+.index nav {
+    background-color: #ffffff !important;
+}
+
+.index nav a {
+    text-transform: uppercase;
+    color: #212121 !important;
+}
+
+.index .nav_i {
+    font-size: 17px !important;
+    padding: 0 !important;
+}
+
+nav {
+    background-color: #212121 !important;
+}
+
+nav a {
+    text-transform: uppercase;
+}
+
+/* O */
+
+.other-half {
+    width: 20%;
+    height: 100vh;
+    overflow-y: hidden;
+    display: inline-block !important;
+}
+
+/* P */
+
+.panel-body {
+    padding: 10px;
+}
+
+.panel-default {
+    border-color: #ddd;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+panel-profile .panel-title {
+    margin-bottom: 5px
+}
+
+.panel-profile .panel-heading {
+    height: 130px;
+}
+
+.panel-profile-img{
+    max-width: 100px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1)
+}
+
+.panel-heading {
+    background: url(../images/backgrounds/speech-bubbles-1441993543OoU.jpg) center center;
+    background-size: cover;
+}
+
+.panel-heading-contact {
+    background: #3F51B5 !important;
+    background-image: url(/images/backgrounds/dankest.jpg) !important;
+}
+
+#part1, #part2, #middle-school {
+    margin-top: -9px !important;
+    
+}
+
+/* Q */
+
+
+/* R */
+
+.row-nopadding.col {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+/* S */
+
+.site-content {
+    position: relative
+}
+
+.site-header {
+    background-color: #212121 !important; 
+    padding: 1px;
+}
+
+.small-i {
+    font-size: 15px !important;
+}
+
+.social-icons i {
+    font-size: 18px;
+    padding: 10px;
+    color: #424242
+}
+
+.side-nav .collapsible-body ul li .collapsible-body a {
+    text-indent: 5%
+}
+
+.side-nav .collapsible .collapsible-body ul li.active {
+    background-color: #f5f5f5;
+}
+
+#staggered-test {
+    opacity: 0;
+}
+
+/* T */
+
+.tabs{
+    z-index: 5;
+}
+
+.tabs a {
+    color: #5E35B1 !important; 
+}
+
+.tabs .indicator {
+    background-color: #5E35B1 !important;
+}
+
+.thin {
+    font-weight: 200 !important;
+}
+
+/* U */
+
+
+/* V */
+
+i.vertical-align{
+    vertical-align: text-bottom !important;
+    font-size: 18px
+}
+
+/* W */
+
+.w900w {
+    font-weight: 800;
+}
+
+/* X */
+
+
+/* Y */
+
+.yuge {
+    font-size: 5.5em;
+}
+
+/* Z */
