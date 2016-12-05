@@ -23,7 +23,7 @@ img {
     border-radius: 3px;
 }
 h1.highlight {
-    background-color: rgb(103, 58, 183);
+    background-color: #212121;
     width: 220px;
     color: white;
     padding: 10px;
@@ -35,8 +35,8 @@ h1.highlight:hover {
     background: #eee;
     transition: all 0.5s ease;
     cursor: default;
-    color: rgb(103, 58, 183);
+    color: #212121;
 }
 nav a {
-    color: rgb(103, 58, 183) !important;
+    color: #212121 !important;
 }
