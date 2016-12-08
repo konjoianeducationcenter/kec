@@ -135,8 +135,12 @@ body {
     color: #000 !important;
 }
 
-ul.dropdown-content {
-    width: 160px !important;
+ul.dropdown-content-home-page {
+    width: 172px !important;
+}
+
+ul.dropdown-content-all-other-pages {
+    width: 210px !important;
 }
 
 /* E */
@@ -461,6 +465,10 @@ panel-profile .panel-title {
 
 .side-nav .collapsible .collapsible-body ul li.active {
     background-color: #f5f5f5;
+}
+
+.side-nav li {
+    font-weight: 300;
 }
 
 #staggered-test {
