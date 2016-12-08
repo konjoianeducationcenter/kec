@@ -135,6 +135,10 @@ body {
     color: #000 !important;
 }
 
+ul.dropdown-content {
+    width: 200px;
+}
+
 /* E */
 
 .enter-page-button {
@@ -415,10 +419,6 @@ panel-profile .panel-title {
 #part1, #part2, #middle-school {
     margin-top: -9px !important;
     
-}
-
-ul#programs {
-    width: 200px;
 }
 
 /* Q */
