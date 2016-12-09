@@ -117,7 +117,7 @@
                     <br>
                     <!-- Calendly link widget begin -->
                     <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
-                    <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script> <a href="" class="btn black" onclick="Calendly.showPopupWidget('https://calendly.com/konjoian/session');return false;">Schedule</a>
+                    <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script> <a href="#datmodal" class="btn black modal-trigger">Schedule</a>
                     <!-- Calendly link widget end -->
                     <a href="testimonials/" class="btn-flat white-text">Testimonials</a> 
                 </div>
@@ -190,6 +190,18 @@
             </div>
         </div>
     </footer>
+    <!-- Calendly Scheduling Modal -->
+    <div id="datmodal" class="modal bottom-sheet">
+        <div class="modal-content">
+            <h4>Schedule a Session<i class="material-icons right modal-action modal-close">close</i></h4>
+            <br>
+            <br>
+            <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/konjoian/session" style="min-width:320px;height:580px;"></div>
+            <script type="text/javascript" src="https://calendly.com/assets/external/widget.js"></script>
+            <!-- Calendly inline widget end -->
+        </div>
+    </div>
     <!-- Keep JQuery First to Avoid Bugs -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>

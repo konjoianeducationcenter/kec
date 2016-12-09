@@ -117,7 +117,7 @@ body {
 }
 
 #datmodal {
-    height: 1000px;
+    height: 1000px !important;
 }
 
 .desktop-size a {
@@ -255,9 +255,9 @@ h6 {
 .hero {
     background: url(https://res.cloudinary.com/konjoian-education-center/image/upload/v1480693348/black-grain_b00pad.jpg) center;
     background-size: cover;
-    height: 600px;
+    height: 500px;
     width: 100%;
-    line-height: 600px;
+    line-height: 500px;
     text-align: center;
     margin-bottom: 50px;
     font-family: 'Roboto', serif;
@@ -307,12 +307,6 @@ ul.inline li {
     width: 100%;
 }
 
-.inquire-button {
-    background-color: #000 !important;
-    width: 40%;
-    margin-left: 30%;
-}
-
 /* J */
 
 
@@ -336,8 +330,16 @@ main {
     margin-bottom: 0 !important;
 }
 
+.modal h4 {
+    font-family: 'Roboto Slab', 'Roboto', serif !important;
+}
+
 .modal-footer-text {
     padding-top: 10px !important;
+}
+
+.modal.bottom-sheet {
+    max-height: 100% !important;
 }
 
 @media screen and (max-width: 640px) {
@@ -345,6 +347,7 @@ main {
         padding-top: 3px !important;
     }   
 }
+
 
 /* N */
 
@@ -444,6 +447,12 @@ panel-profile .panel-title {
 
 
 /* S */
+
+.schedule-button {
+    background-color: #000 !important;
+    width: 40%;
+    margin-left: 30%;
+}
 
 .site-content {
     position: relative
