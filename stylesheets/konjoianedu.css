@@ -137,6 +137,7 @@ body {
 
 .dropdown-content a {
     color: #000 !important;
+    font-weight: 400 !important;
 }
 
 ul.dropdown-content-home-page {
