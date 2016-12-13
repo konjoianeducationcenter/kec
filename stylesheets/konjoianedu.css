@@ -60,7 +60,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .breadcrumb.nav {
+    .breadcrumb-nav {
         display: none !important;
     }
 }
