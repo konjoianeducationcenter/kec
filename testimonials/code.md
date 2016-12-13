@@ -1,6 +1,6 @@
-### Code for Testimonial Box
+### Knew You'd Need This
 - Enjoy, Gents.
-    <!-- THIS IS THE CODE FOR EACH TESTIMONIAL -->
+        <!-- THIS IS THE CODE FOR EACH TESTIMONIAL -->
         <!-- BOX FOR TESTIMONIAL -->
             <div class="card panel-profile m-b-0">
                 <!-- COLORED HEADING -->
