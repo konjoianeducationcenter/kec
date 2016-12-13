@@ -1,4 +1,5 @@
-### Code for Testimonial Box  
+### Code for Testimonial Box
+- Enjoy, Gents.
     <!-- THIS IS THE CODE FOR EACH TESTIMONIAL -->
         <!-- BOX FOR TESTIMONIAL -->
             <div class="card panel-profile m-b-0">
@@ -6,7 +7,7 @@
                 <div class="panel-heading l"></div>
                 <!-- CONTENT FOR TESTIMONIAL -->
                 <div class="panel-body text-center">
-                    <!-- PROFILE PICTURE --><img class="panel-profile-img" src="/images/assets/abstract-architecture-11287678240s8xM.jpg">
+                    <!-- PROFILE PICTURE --><img class="panel-profile-img" src="https://scontent.fbos1-1.fna.fbcdn.net/v/t1.0-1/p160x160/558244_2149028445245_213305078_n.jpg?oh=004cf52294edf58640faf05c403a6ed0&oe=58994C66">
                     <!-- NAME -->
                     <h5 class="panel-title">Zack King</h5>
                     <!-- QUOTE -->
