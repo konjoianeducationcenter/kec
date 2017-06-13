@@ -76,9 +76,14 @@ body {
     width: 32px;
 }
 
-.bullets li {
+.bullets li /* empty circle */{
     list-style: circle;
     margin-left: 5%;
+}
+
+ul.bullets-2 li /* filled in circle */ {
+    list-style: disc;
+    margin-left: 10%;
 }
 
 .index .button-collapse i {
