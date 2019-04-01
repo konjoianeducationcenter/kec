@@ -12,7 +12,7 @@
     <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
     <!-- Framework (null) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-<!-- Favorite Icons -->
+    <!-- Favorite Icons -->
     <!-- Favicon for Opera SpeedDial -->
     <link rel="icon" type="image/png" href="/images/favicons/favicon_opera.png" />
     <!-- Traditional Favicon -->
@@ -51,7 +51,11 @@
 <div class="z-depth-1">
     <div class="site-header hide-on-med-and-down">
         <!-- grey section above navigation -->
-        <div class="container-fluid"> <a href="/index.html"><h4 class="header-text white-text">Konjoian Education Center <small style="font-family: 'Roboto';font-size: .45em">&nbsp; "An Easier Way to Succeed"</small></h4></a> </div>
+        <div class="container-fluid">
+            <a href="/index.html">
+                <h4 class="header-text white-text">Konjoian Education Center <small style="font-family: 'Roboto';font-size: .45em">&nbsp; "An Easier Way to Succeed"</small></h4>
+            </a>
+        </div>
     </div>
     <!-- end grey section -->
     <nav class="z-depth-0">
@@ -112,14 +116,15 @@
         </div>
     </nav>
 </div>
+
 <body>
     <nav class="breadcrumb-nav z-depth-0">
         <div class="nav-wrapper container-fluid">
-          <div class="col s12">
-            <a href="/index.html" class="breadcrumb grey-text">Home</a>
-            <a href="/programs/" class="breadcrumb grey-text">Programs</a>
-            <a href="/programs/college-counseling/" class="breadcrumb grey-text">College&nbsp;Counseling</a>
-          </div>
+            <div class="col s12">
+                <a href="/index.html" class="breadcrumb grey-text">Home</a>
+                <a href="/programs/" class="breadcrumb grey-text">Programs</a>
+                <a href="/programs/college-counseling/" class="breadcrumb grey-text">College&nbsp;Counseling</a>
+            </div>
         </div>
     </nav>
     <!-- BEGIN SITE CONTENT -->
@@ -132,10 +137,10 @@
             <div class="col s12">
                 <ul class="tabs">
                     <li class="tab col s6"><a href="#part1">College Counseling</a></li>
-                    <li class="tab col s6"><a href="#part2">Summer College Counseling</a></li>
+                    <li class="tab col s6"><a href="#part2">Summer College Application</a></li>
                 </ul>
             </div>
-        <!-- PART 1 -->
+            <!-- PART 1 -->
             <div id="part1" class="col s12">
                 <ul class="collection with-header">
                     <li class="collection-header">
@@ -145,11 +150,6 @@
                             <li>The sessions will be 1 on 1</li>
                             <li>The program is designed to be flexible with the student's schedule</li>
                             <li>The program will cost $1,500</li>
-                        </ul>
-                        <p><strong>Payment Options</strong></p>
-                        <ul class="bullets">
-                            <li>Option 1: Full payment will recieve a $100 discount</li>
-                            <li>Option 2: Two payments of $750</li>
                         </ul>
                     </li>
                     <li class="collection-item">
@@ -170,7 +170,7 @@
                     </li>
                 </ul>
             </div>
-        <!-- PART 2 -->
+            <!-- PART 2 -->
             <div id="part2" class="col s12">
                 <ul class="collection with-header">
                     <li class="collection-header">
@@ -178,17 +178,15 @@
                         <ul class="bullets">
                             <li>This program will be five sessions with each session lasting (1) hour</li>
                             <li>The sessions are 1 on 1</li>
-                            <li>The program will cost $500 for the five sessions</li>
+                            <li>The program will cost $600 for the six sessions</li>
                         </ul>
                     </li>
                     <li class="collection-item">
                         <p><strong>Program Curriculum</strong></p>
                         <ul class="bullets">
-                            <li>College search and establishment of a list of schools to be considered</li>
                             <li>Essay Writing</li>
                             <li>Common Application Completion</li>
                             <li>Resume Creation</li>
-                            <li>FAFSA Readiness Checklist</li>
                             <li>Students Demonstrated Interest</li>
                         </ul>
                         <br>
@@ -227,15 +225,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
     <script src="../../javascript/init.js"></script>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-87948805-1', 'auto');
-  ga('send', 'pageview');
+        ga('create', 'UA-87948805-1', 'auto');
+        ga('send', 'pageview');
 
-</script>
+    </script>
 </body>
 
 </html>
