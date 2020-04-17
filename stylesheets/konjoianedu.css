@@ -8,7 +8,10 @@
 /* Font Imports */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,800');
 @import url('https://fonts.googleapis.com/css?family=Ranga');
-
+@font-face{
+    font-family: 'Inter';
+    src: url(Inter-Medium.woff) format('woff');
+}
 /* # */
 
 /* A */
@@ -40,6 +43,10 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+}
+
+body.index {
+    font-family: 'Inter', 'Roboto', sans-serif;
 }
 
 .brand-logo {
@@ -113,6 +120,15 @@ ul.bullets-2 li /* filled in circle */ {
 
 .collection.with-header {
     border: solid 1px white;
+}
+
+.covid-19 {
+    font-family: 'Inter';
+    margin-bottom: 100px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 500;
+    color: #7e8286;
 }
 
 /* D */
@@ -266,6 +282,7 @@ h6 {
     text-align: center;
     margin-bottom: 50px;
     font-family: 'Roboto', serif;
+    margin-top: 50px;
 }
 
 .header-text {
