@@ -122,11 +122,8 @@ ul.bullets-2 li /* filled in circle */ {
     border: solid 1px white;
 }
 
-.covid-19 {
+#covid {
     font-family: 'Inter';
-    margin-bottom: 100px;
-    margin-top: 50px;
-    text-align: center;
     font-weight: 500;
     color: #7e8286;
 }
@@ -282,7 +279,6 @@ h6 {
     text-align: center;
     margin-bottom: 50px;
     font-family: 'Roboto', serif;
-    margin-top: 50px;
 }
 
 .header-text {
