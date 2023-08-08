@@ -8,6 +8,7 @@
 /* Font Imports */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,800');
 @import url('https://fonts.googleapis.com/css?family=Ranga');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css')
 @font-face{
     font-family: 'Inter';
     src: url(Inter-Medium.woff) format('woff');
